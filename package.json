@@ -1,0 +1,34 @@
+{
+  "name": "fun-tv-crawler",
+  "version": "0.0.0",
+  "description": "豆瓣电影 Top20 榜单爬虫",
+  "homepage": "https://github.com/MagnumGoYB/fun-tv-crawler#readme",
+  "bugs": {
+    "url": "https://github.com/MagnumGoYB/fun-tv-crawler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagnumGoYB/fun-tv-crawler.git"
+  },
+  "license": "MIT",
+  "author": "MagnumGoYB (sosbs@outlook.com)",
+  "scripts": {
+    "prepare": "husky install",
+    "sort": "sort-package-json",
+    "prettier": "prettier -c --write '**/*'"
+  },
+  "devDependencies": {
+    "commitlint": "^11.0.0",
+    "commitlint-config-gitmoji": "^2.2.5",
+    "eslint": "^7.29.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.1",
+    "sort-package-json": "^1.50.0"
+  }
+}
